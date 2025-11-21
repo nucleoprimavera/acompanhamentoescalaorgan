@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cadastro na Escala da Organ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h3>Núcleo Primavera - 13º Região</h3>
+      <h1>Cadastro para Escala da Organ 2026</h1>
+      <p>Acompanhamento de cadastro da escala da Organ</p>
+    </header>
+
+    <main class="container">
+      <section class="panel">
+        <h2>Escalas</h2>
+        <div id="shiftsGrid" class="shifts-grid"></div>
+      </section>
+    </main>
+
+    <div
+      id="participantsModal"
+      class="modal"
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+    >
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-content" role="document">
+        <button class="modal-close" title="Close" aria-label="Close" data-close>
+          &times;
+        </button>
+        <h3 id="modalTitle">Participantes</h3>
+        <ul id="participantsList" class="participants-list"></ul>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
