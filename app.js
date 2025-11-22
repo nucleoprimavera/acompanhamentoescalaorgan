@@ -17,7 +17,7 @@ const db = firebase.database();
 // -----------------------------------------
 
 (function () {
-    const CAPACITY = 10;
+    const CAPACITY = 13;
 
     const DEFAULT_SHIFTS = [
         { id: 'shift-1', label: 'Escala 22-Jan-2026 à 22-mar-2026' },
@@ -148,3 +148,4 @@ const db = firebase.database();
     // Start realtime sync
     subscribeRealtime();
 })();
+
