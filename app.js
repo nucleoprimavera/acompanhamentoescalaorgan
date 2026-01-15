@@ -2,14 +2,14 @@
 // Firebase Config (COLE O SEU AQUI)
 // -----------------------------------------
 const firebaseConfig = {
-    apiKey: "AIzaSyAeyMRXjtms6g6yadXUAFSsCm1jurx-Cvw",
-    authDomain: "escaladata-753ae.firebaseapp.com",
-    databaseURL: "https://escaladata-753ae-default-rtdb.firebaseio.com",
-    projectId: "escaladata-753ae",
-    storageBucket: "escaladata-753ae.firebasestorage.app",
-    messagingSenderId: "185170724202",
-    appId: "1:185170724202:web:6ebb33922ec5b196371113"
-};
+    apiKey: "AIzaSyCRxbN6NsMs-zeJwyBWhZzziQGtD1edJaA",
+    authDomain: "escalaorgan.firebaseapp.com",
+    databaseURL: "https://escalaorgan-default-rtdb.firebaseio.com",
+    projectId: "escalaorgan",
+    storageBucket: "escalaorgan.firebasestorage.app",
+    messagingSenderId: "737179182571",
+    appId: "1:737179182571:web:196d44c5d73d88738425ae"
+  };
 
 // -----------------------------------------
 firebase.initializeApp(firebaseConfig);
@@ -148,4 +148,5 @@ const db = firebase.database();
     // Start realtime sync
     subscribeRealtime();
 })();
+
 
